@@ -1,0 +1,36 @@
+{
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "id" : "https://mziku.github.io/Knots-and-Patterns/manifests/mekeio-manifest.json",
+  "type" : "Manifest",
+  "label" : {
+    "en" : [ "Mekeio Foundation – Deconstructing Lola" ]
+  },
+  "items" : [ {
+    "id" : "https://mziku.github.io/Knots-and-Patterns/images/Mekeio-foundation-Deconstructing-Lola/canvas",
+    "type" : "Canvas",
+    "width" : 2730,
+    "height" : 4095,
+    "items" : [ {
+      "id" : "https://mziku.github.io/Knots-and-Patterns/images/Mekeio-foundation-Deconstructing-Lola/page",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://mziku.github.io/Knots-and-Patterns/images/Mekeio-foundation-Deconstructing-Lola/annotation",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "body" : {
+          "id" : "https://mziku.github.io/Knots-and-Patterns/images/Mekeio-foundation-Deconstructing-Lola/full/full/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "width" : 2730,
+          "height" : 4095,
+          "service" : [ {
+            "id" : "https://mziku.github.io/Knots-and-Patterns/images/Mekeio-foundation-Deconstructing-Lola",
+            "type" : "ImageService2",
+            "profile" : "level0"
+          } ]
+        },
+        "target" : "https://mziku.github.io/Knots-and-Patterns/images/Mekeio-foundation-Deconstructing-Lola/canvas"
+      } ]
+    } ]
+  } ]
+}
