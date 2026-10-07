@@ -11,5 +11,11 @@
       "en" : [ "Rokka Guest House" ]
     },
     "type" : "Manifest"
+  }, {
+    "id" : "https://mziku.github.io/Knots-and-Patterns/manifests/mekeio-manifest.json",
+    "label" : {
+      "en" : [ "Mekeio Foundation – Deconstructing Lola" ]
+    },
+    "type" : "Manifest"
   } ]
 }
