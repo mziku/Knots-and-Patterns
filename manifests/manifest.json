@@ -1,0 +1,36 @@
+{
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "id" : "https://mziku.github.io/Knots-and-Patterns/manifests/manifest.json",
+  "type" : "Manifest",
+  "label" : {
+    "en" : [ "Rokka Guest House" ]
+  },
+  "items" : [ {
+    "id" : "https://mziku.github.io/Knots-and-Patterns/images/rokkaguesthouse/canvas",
+    "type" : "Canvas",
+    "width" : 4689,
+    "height" : 2329,
+    "items" : [ {
+      "id" : "https://mziku.github.io/Knots-and-Patterns/images/rokkaguesthouse/page",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://mziku.github.io/Knots-and-Patterns/images/rokkaguesthouse/annotation",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "body" : {
+          "id" : "https://mziku.github.io/Knots-and-Patterns/images/rokkaguesthouse/full/full/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "width" : 4689,
+          "height" : 2329,
+          "service" : [ {
+            "id" : "https://mziku.github.io/Knots-and-Patterns/images/rokkaguesthouse",
+            "type" : "ImageService2",
+            "profile" : "level0"
+          } ]
+        },
+        "target" : "https://mziku.github.io/Knots-and-Patterns/images/rokkaguesthouse/canvas"
+      } ]
+    } ]
+  } ]
+}
